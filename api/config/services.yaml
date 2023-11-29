@@ -22,3 +22,7 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+    B2M\Starter\Security\GoogleAuthenticator:
+        arguments:
+            $clientId: '%env(OAUTH_GOOGLE_ID)%'
+            $clientSecret: '%env(OAUTH_GOOGLE_SECRET)%'

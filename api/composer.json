@@ -6,6 +6,7 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "api-platform/core": "^3.2",
+        "b2mfutsal/starter": "dev-master",
         "doctrine/doctrine-bundle": "^2.7",
         "doctrine/doctrine-migrations-bundle": "^3.2",
         "doctrine/orm": "^2.12",
@@ -83,9 +84,6 @@
         ],
         "post-update-cmd": [
             "@auto-scripts"
-        ],
-        "post-package-install": [
-            "php vendor/b2mfutsal/starter/post-install-script.php"
         ]
     },
     "conflict": {

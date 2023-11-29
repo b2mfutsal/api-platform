@@ -19,3 +19,28 @@ api_platform:
             rfc_7807_compliant_errors: true
     event_listeners_backward_compatibility_layer: false
     keep_legacy_inflector: false
+    oauth:
+        # To enable or disable OAuth.
+        enabled: true
+
+        # The OAuth client ID.
+        clientId: '%env(OAUTH_GOOGLE_ID)%'
+
+        # The OAuth client secret.
+        clientSecret: '%env(OAUTH_GOOGLE_SECRET)%'
+
+        # The OAuth type.
+        type: 'oauth2'
+
+        # The OAuth flow grant type.
+        flow: 'authorizationCode'
+
+        # The OAuth token URL. Make sure to check the specification tokenUrl is not needed for an implicit flow.
+        tokenUrl: 'https://accounts.google.com/o/oauth2/token'
+
+        # The OAuth authentication URL.
+        authorizationUrl: 'https://accounts.google.com/o/oauth2/auth'
+
+        # The OAuth scopes.
+        scopes:
+            email: 'Allow to retrieve user email'
