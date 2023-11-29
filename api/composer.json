@@ -83,6 +83,9 @@
         ],
         "post-update-cmd": [
             "@auto-scripts"
+        ],
+        "post-package-install": [
+            "php vendor/b2mfutsal/starter/post-install-script.php"
         ]
     },
     "conflict": {
