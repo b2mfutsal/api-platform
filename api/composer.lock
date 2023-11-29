@@ -176,12 +176,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:b2mfutsal/b2m-starter.git",
-                "reference": "aff6112ea3c6bca7cb7f7a80c53444777a1d8b06"
+                "reference": "494aabf7a2570696eb464c2a772a460a5e11b757"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/b2mfutsal/b2m-starter/zipball/aff6112ea3c6bca7cb7f7a80c53444777a1d8b06",
-                "reference": "aff6112ea3c6bca7cb7f7a80c53444777a1d8b06",
+                "url": "https://api.github.com/repos/b2mfutsal/b2m-starter/zipball/494aabf7a2570696eb464c2a772a460a5e11b757",
+                "reference": "494aabf7a2570696eb464c2a772a460a5e11b757",
                 "shasum": ""
             },
             "require": {
@@ -203,7 +203,7 @@
                 "source": "https://github.com/b2mfutsal/b2m-starter/tree/master",
                 "issues": "https://github.com/b2mfutsal/b2m-starter/issues"
             },
-            "time": "2023-11-29T13:59:00+00:00"
+            "time": "2023-11-29T17:57:25+00:00"
         },
         {
             "name": "brick/math",

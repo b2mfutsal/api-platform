@@ -22,6 +22,13 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+    B2M\Starter\:
+        resource: '../vendor/b2mfutsal/starter/src/'
+        exclude:
+            - '../vendor/b2mfutsal/starter/src/DependencyInjection/'
+            - '../vendor/b2mfutsal/starter/src/Entity/'
+            - '../vendor/b2mfutsal/starter/src/Kernel.php'
+
     B2M\Starter\Security\GoogleAuthenticator:
         arguments:
             $clientId: '%env(OAUTH_GOOGLE_ID)%'

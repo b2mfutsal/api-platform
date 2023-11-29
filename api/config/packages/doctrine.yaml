@@ -21,6 +21,12 @@ doctrine:
                 dir: '%kernel.project_dir%/src/Entity'
                 prefix: 'App\Entity'
                 alias: App
+            B2MStarter:
+                type: attribute
+                is_bundle: false
+                dir: '%kernel.project_dir%/vendor/b2mfutsal/starter/src/Entity'
+                prefix: 'B2M\Starter'
+                alias: B2MStarter
 
 when@test:
     doctrine:
