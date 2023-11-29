@@ -94,5 +94,11 @@
             "require": "6.3.*",
             "docker": false
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/b2mfutsal/b2m-starter"
+        }
+    ]
 }
