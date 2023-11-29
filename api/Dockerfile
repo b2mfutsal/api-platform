@@ -19,6 +19,9 @@ FROM frankenphp_upstream AS frankenphp_base
 
 WORKDIR /app
 
+RUN apk add --no-cache tzdata
+ENV TZ=Europe/Paris
+
 # persistent / runtime deps
 # hadolint ignore=DL3018
 RUN apk add --no-cache \
